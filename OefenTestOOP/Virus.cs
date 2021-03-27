@@ -26,7 +26,7 @@ namespace OefenTestOOP
             private set
             {
                 if (value <= 0)
-                    Console.WriteLine("Game over {Naam}");
+                    Console.WriteLine($"Game over {Naam}");
                 doomCountdown = value;
             }
         }
