@@ -9,7 +9,6 @@ namespace OefenTestOOP
         static public Vaccin DucpliceerVaccin (Vaccin original)
         {
             Vaccin copy = new Vaccin(original.Naam);
-            copy.Naam = original.Naam;
             copy.Oplossing = original.Oplossing;
             return copy;
         }
