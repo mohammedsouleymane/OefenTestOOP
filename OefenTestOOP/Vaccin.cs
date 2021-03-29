@@ -26,7 +26,7 @@ namespace OefenTestOOP
             get { return oplossing; }
             set
             {
-                if (oplossing >= -1)
+                if (value >= -1)
                     oplossing = value;
             }
         }
