@@ -26,8 +26,8 @@ namespace OefenTestOOP
 
             if (possibleCure)
             {
-                Vaccin werkende = Vaccin.DucpliceerVaccin(vaccins[j % 3]);
-                werkende.ToonInfo();
+                Vaccin theCure = Vaccin.DucpliceerVaccin(vaccins[j % 3]);
+                theCure.ToonInfo();
             }
 
         }
