@@ -9,9 +9,9 @@ namespace OefenTestOOP
         public Virus()
         {
             Random r = new Random();
-            DoomCountdown = r.Next(10, 21);
-            killCode = r.Next(100);
-            Naam = $"{(char)r.Next('A', 'Z' + 1)}{(char)r.Next('A', 'Z' + 1)}{(char)r.Next('A', 'Z' + 1)}{r.Next(1, 100)}";
+            DoomCountdown = r.Next(11, 20);
+            killCode = r.Next(1,99);
+            Naam = $"{(char)r.Next('A', 'Z' + 1)}{(char)r.Next('A', 'Z' + 1)}{(char)r.Next('A', 'Z' + 1)}{r.Next(1, 99)}";
         }
         public string Naam { get; set; }
 
